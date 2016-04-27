@@ -1,0 +1,6 @@
+framework module Pods_checklogin {
+  umbrella header "Pods-checklogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

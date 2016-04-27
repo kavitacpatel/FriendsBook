@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B1511D21CAAECF40030CD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1511D11CAAECF40030CD13 /* Assets.xcassets */; };
+		6B3136CB1CA718AB000F3199 /* libCloudinary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3136CA1CA718AB000F3199 /* libCloudinary.a */; };
+		6B5DF26E1CA1DE8800C77613 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5DF26D1CA1DE8800C77613 /* Posts.swift */; };
+		6B75D11A1C8F6FB500CF7E9C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B75D1191C8F6FB500CF7E9C /* Default-568h@2x.png */; };
+		6B75D15D1C90BFC500CF7E9C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B75D15C1C90BFC500CF7E9C /* DataService.swift */; };
+		6BE425511C9C6F86004DC76F /* DetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE425501C9C6F86004DC76F /* DetailVc.swift */; };
+		6BE425531C9C8A50004DC76F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE425521C9C8A50004DC76F /* PostCell.swift */; };
 		6BE9D8EB1C8F374300F8F2AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D8EA1C8F374300F8F2AA /* AppDelegate.swift */; };
 		6BE9D8ED1C8F374300F8F2AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D8EC1C8F374300F8F2AA /* ViewController.swift */; };
 		6BE9D8F01C8F374300F8F2AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE9D8EE1C8F374300F8F2AA /* Main.storyboard */; };
-		6BE9D8F21C8F374300F8F2AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE9D8F11C8F374300F8F2AA /* Assets.xcassets */; };
 		6BE9D8F51C8F374300F8F2AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE9D8F31C8F374300F8F2AA /* LaunchScreen.storyboard */; };
 		6BE9D9001C8F374300F8F2AA /* checkloginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D8FF1C8F374300F8F2AA /* checkloginTests.swift */; };
 		6BE9D90B1C8F374300F8F2AA /* checkloginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D90A1C8F374300F8F2AA /* checkloginUITests.swift */; };
+		6BE9D91C1C8F38B600F8F2AA /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D91B1C8F38B600F8F2AA /* MaterialView.swift */; };
+		6BE9D91E1C8F390300F8F2AA /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D91D1C8F390300F8F2AA /* constant.swift */; };
+		6BE9D9231C8F42D600F8F2AA /* buttonview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D9221C8F42D600F8F2AA /* buttonview.swift */; };
+		6BE9D9251C8F449A00F8F2AA /* txtview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D9241C8F449A00F8F2AA /* txtview.swift */; };
+		6BE9D9301C8F54C400F8F2AA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE9D92F1C8F54C400F8F2AA /* Bolts.framework */; };
+		6BE9D9321C8F54D300F8F2AA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE9D9311C8F54D300F8F2AA /* FBSDKLoginKit.framework */; };
+		6BE9D9341C8F54F400F8F2AA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE9D9331C8F54F400F8F2AA /* FBSDKCoreKit.framework */; };
+		EED0C9DBB71066BA3730D986 /* Pods_checklogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AE2C64A4F6D4FB942D8704 /* Pods_checklogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +48,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02AE2C64A4F6D4FB942D8704 /* Pods_checklogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_checklogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3F2E4A27FBABE8B2E86F37 /* Pods-checklogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checklogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-checklogin/Pods-checklogin.release.xcconfig"; sourceTree = "<group>"; };
+		59832DBD48B52D5B6C774F5F /* Pods-checklogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checklogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-checklogin/Pods-checklogin.debug.xcconfig"; sourceTree = "<group>"; };
+		6B1511D11CAAECF40030CD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B3136CA1CA718AB000F3199 /* libCloudinary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCloudinary.a; path = checklogin/libCloudinary.a; sourceTree = "<group>"; };
+		6B3136CD1CA718ED000F3199 /* CLCloudinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCloudinary.h; sourceTree = "<group>"; };
+		6B3136CE1CA718ED000F3199 /* CLEagerTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLEagerTransformation.h; sourceTree = "<group>"; };
+		6B3136CF1CA718ED000F3199 /* CLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLayer.h; sourceTree = "<group>"; };
+		6B3136D01CA718ED000F3199 /* Cloudinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cloudinary.h; sourceTree = "<group>"; };
+		6B3136D11CA718ED000F3199 /* CLTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTransformation.h; sourceTree = "<group>"; };
+		6B3136D21CA718ED000F3199 /* CLUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLUploader.h; sourceTree = "<group>"; };
+		6B3136DB1CA8342D000F3199 /* checklogin-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "checklogin-Bridging-Header.h"; sourceTree = "<group>"; };
+		6B5DF26D1CA1DE8800C77613 /* Posts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		6B75D1191C8F6FB500CF7E9C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6B75D15C1C90BFC500CF7E9C /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		6BE425501C9C6F86004DC76F /* DetailVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVc.swift; sourceTree = "<group>"; };
+		6BE425521C9C8A50004DC76F /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		6BE9D8E71C8F374300F8F2AA /* checklogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checklogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE9D8EA1C8F374300F8F2AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BE9D8EC1C8F374300F8F2AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6BE9D8EF1C8F374300F8F2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6BE9D8F11C8F374300F8F2AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BE9D8F41C8F374300F8F2AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BE9D8F61C8F374300F8F2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BE9D8FB1C8F374300F8F2AA /* checkloginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkloginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +77,13 @@
 		6BE9D9061C8F374300F8F2AA /* checkloginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkloginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE9D90A1C8F374300F8F2AA /* checkloginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkloginUITests.swift; sourceTree = "<group>"; };
 		6BE9D90C1C8F374300F8F2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BE9D91B1C8F38B600F8F2AA /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		6BE9D91D1C8F390300F8F2AA /* constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		6BE9D9221C8F42D600F8F2AA /* buttonview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonview.swift; sourceTree = "<group>"; };
+		6BE9D9241C8F449A00F8F2AA /* txtview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = txtview.swift; sourceTree = "<group>"; };
+		6BE9D92F1C8F54C400F8F2AA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		6BE9D9311C8F54D300F8F2AA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		6BE9D9331C8F54F400F8F2AA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BE9D9321C8F54D300F8F2AA /* FBSDKLoginKit.framework in Frameworks */,
+				6BE9D9341C8F54F400F8F2AA /* FBSDKCoreKit.framework in Frameworks */,
+				6B3136CB1CA718AB000F3199 /* libCloudinary.a in Frameworks */,
+				6BE9D9301C8F54C400F8F2AA /* Bolts.framework in Frameworks */,
+				EED0C9DBB71066BA3730D986 /* Pods_checklogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +116,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5760646B031E29A6E59E7E71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59832DBD48B52D5B6C774F5F /* Pods-checklogin.debug.xcconfig */,
+				3E3F2E4A27FBABE8B2E86F37 /* Pods-checklogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61CD45D5E0E9C28631BFE6D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B3136CA1CA718AB000F3199 /* libCloudinary.a */,
+				02AE2C64A4F6D4FB942D8704 /* Pods_checklogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B3136CC1CA718ED000F3199 /* Cloudinary */ = {
+			isa = PBXGroup;
+			children = (
+				6B3136CD1CA718ED000F3199 /* CLCloudinary.h */,
+				6B3136CE1CA718ED000F3199 /* CLEagerTransformation.h */,
+				6B3136CF1CA718ED000F3199 /* CLLayer.h */,
+				6B3136D01CA718ED000F3199 /* Cloudinary.h */,
+				6B3136D11CA718ED000F3199 /* CLTransformation.h */,
+				6B3136D21CA718ED000F3199 /* CLUploader.h */,
+			);
+			path = Cloudinary;
+			sourceTree = "<group>";
+		};
 		6BE9D8DE1C8F374300F8F2AA = {
 			isa = PBXGroup;
 			children = (
+				6B75D1191C8F6FB500CF7E9C /* Default-568h@2x.png */,
 				6BE9D8E91C8F374300F8F2AA /* checklogin */,
 				6BE9D8FE1C8F374300F8F2AA /* checkloginTests */,
 				6BE9D9091C8F374300F8F2AA /* checkloginUITests */,
 				6BE9D8E81C8F374300F8F2AA /* Products */,
+				5760646B031E29A6E59E7E71 /* Pods */,
+				61CD45D5E0E9C28631BFE6D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +173,19 @@
 		6BE9D8E91C8F374300F8F2AA /* checklogin */ = {
 			isa = PBXGroup;
 			children = (
+				6B3136CC1CA718ED000F3199 /* Cloudinary */,
+				6BE9D92E1C8F52EA00F8F2AA /* framework */,
+				6BE9D91F1C8F393A00F8F2AA /* util */,
+				6BE9D91A1C8F387A00F8F2AA /* controller */,
+				6BE9D9191C8F387500F8F2AA /* view */,
+				6BE9D9181C8F386F00F8F2AA /* model */,
 				6BE9D8EA1C8F374300F8F2AA /* AppDelegate.swift */,
-				6BE9D8EC1C8F374300F8F2AA /* ViewController.swift */,
+				6B1511D11CAAECF40030CD13 /* Assets.xcassets */,
 				6BE9D8EE1C8F374300F8F2AA /* Main.storyboard */,
-				6BE9D8F11C8F374300F8F2AA /* Assets.xcassets */,
 				6BE9D8F31C8F374300F8F2AA /* LaunchScreen.storyboard */,
 				6BE9D8F61C8F374300F8F2AA /* Info.plist */,
+				6B75D15C1C90BFC500CF7E9C /* DataService.swift */,
+				6B3136DB1CA8342D000F3199 /* checklogin-Bridging-Header.h */,
 			);
 			path = checklogin;
 			sourceTree = "<group>";
@@ -125,6 +208,52 @@
 			path = checkloginUITests;
 			sourceTree = "<group>";
 		};
+		6BE9D9181C8F386F00F8F2AA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6B5DF26D1CA1DE8800C77613 /* Posts.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		6BE9D9191C8F387500F8F2AA /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6BE9D91B1C8F38B600F8F2AA /* MaterialView.swift */,
+				6BE9D9241C8F449A00F8F2AA /* txtview.swift */,
+				6BE9D9221C8F42D600F8F2AA /* buttonview.swift */,
+				6BE425521C9C8A50004DC76F /* PostCell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		6BE9D91A1C8F387A00F8F2AA /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BE9D8EC1C8F374300F8F2AA /* ViewController.swift */,
+				6BE425501C9C6F86004DC76F /* DetailVc.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		6BE9D91F1C8F393A00F8F2AA /* util */ = {
+			isa = PBXGroup;
+			children = (
+				6BE9D91D1C8F390300F8F2AA /* constant.swift */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		6BE9D92E1C8F52EA00F8F2AA /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				6BE9D9331C8F54F400F8F2AA /* FBSDKCoreKit.framework */,
+				6BE9D9311C8F54D300F8F2AA /* FBSDKLoginKit.framework */,
+				6BE9D92F1C8F54C400F8F2AA /* Bolts.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +261,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BE9D90F1C8F374300F8F2AA /* Build configuration list for PBXNativeTarget "checklogin" */;
 			buildPhases = (
+				FEF591150FC4B32A83656481 /* Check Pods Manifest.lock */,
 				6BE9D8E31C8F374300F8F2AA /* Sources */,
 				6BE9D8E41C8F374300F8F2AA /* Frameworks */,
 				6BE9D8E51C8F374300F8F2AA /* Resources */,
+				458653AFED729B88A997EEE6 /* Embed Pods Frameworks */,
+				7972A640E6B88E21A70F8D83 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,7 +365,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BE9D8F51C8F374300F8F2AA /* LaunchScreen.storyboard in Resources */,
-				6BE9D8F21C8F374300F8F2AA /* Assets.xcassets in Resources */,
+				6B75D11A1C8F6FB500CF7E9C /* Default-568h@2x.png in Resources */,
+				6B1511D21CAAECF40030CD13 /* Assets.xcassets in Resources */,
 				6BE9D8F01C8F374300F8F2AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +387,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		458653AFED729B88A997EEE6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-checklogin/Pods-checklogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7972A640E6B88E21A70F8D83 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-checklogin/Pods-checklogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF591150FC4B32A83656481 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6BE9D8E31C8F374300F8F2AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6BE9D8ED1C8F374300F8F2AA /* ViewController.swift in Sources */,
+				6B5DF26E1CA1DE8800C77613 /* Posts.swift in Sources */,
+				6B75D15D1C90BFC500CF7E9C /* DataService.swift in Sources */,
+				6BE9D9231C8F42D600F8F2AA /* buttonview.swift in Sources */,
+				6BE9D91C1C8F38B600F8F2AA /* MaterialView.swift in Sources */,
 				6BE9D8EB1C8F374300F8F2AA /* AppDelegate.swift in Sources */,
+				6BE425531C9C8A50004DC76F /* PostCell.swift in Sources */,
+				6BE425511C9C6F86004DC76F /* DetailVc.swift in Sources */,
+				6BE9D91E1C8F390300F8F2AA /* constant.swift in Sources */,
+				6BE9D9251C8F449A00F8F2AA /* txtview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,23 +587,61 @@
 		};
 		6BE9D9101C8F374300F8F2AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59832DBD48B52D5B6C774F5F /* Pods-checklogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/checklogin",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/extras",
+					"$(PROJECT_DIR)/checkloginUITests",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/checklogin",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/extras",
+					"$(PROJECT_DIR)/checkloginUITests",
+				);
 				INFOPLIST_FILE = checklogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Darsh.checklogin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/checklogin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = checklogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "checklogin/checklogin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6BE9D9111C8F374300F8F2AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E3F2E4A27FBABE8B2E86F37 /* Pods-checklogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/checklogin",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/extras",
+					"$(PROJECT_DIR)/checkloginUITests",
+				);
 				INFOPLIST_FILE = checklogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Darsh.checklogin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/checklogin",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = checklogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "checklogin/checklogin-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -445,6 +672,10 @@
 		6BE9D9161C8F374300F8F2AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/checkloginUITests",
+				);
 				INFOPLIST_FILE = checkloginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Darsh.checkloginUITests;
@@ -457,6 +688,10 @@
 		6BE9D9171C8F374300F8F2AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/checkloginUITests",
+				);
 				INFOPLIST_FILE = checkloginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Darsh.checkloginUITests;
@@ -485,6 +720,7 @@
 				6BE9D9111C8F374300F8F2AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BE9D9121C8F374300F8F2AA /* Build configuration list for PBXNativeTarget "checkloginTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +729,7 @@
 				6BE9D9141C8F374300F8F2AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BE9D9151C8F374300F8F2AA /* Build configuration list for PBXNativeTarget "checkloginUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +738,7 @@
 				6BE9D9171C8F374300F8F2AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

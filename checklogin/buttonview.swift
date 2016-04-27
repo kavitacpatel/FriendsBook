@@ -10,12 +10,13 @@ import UIKit
 
 class buttonview: UIButton {
 
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
+    override func awakeFromNib() {
+        
+        layer.cornerRadius = 2.0
+        layer.shadowColor = UIColor(red: shadowcolor, green: shadowcolor, blue: shadowcolor, alpha: 0.8).CGColor
+        layer.shadowRadius = 5.0
+        layer.shadowOpacity = 0.8
+        layer.shadowOffset = CGSizeMake(0.0, 2.0)
     }
-    */
 
 }

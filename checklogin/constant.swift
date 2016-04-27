@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+
+let shadowcolor: CGFloat = 157.0/255.0
+let KEY_UID = "uid"
+let Seque_loggedin = "loggedin"
+let USER_NO_EXISTS = -8

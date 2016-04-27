@@ -1,0 +1,13 @@
+PODS:
+  - Cloudinary (1.0.15)
+  - Firebase (2.5.1)
+
+DEPENDENCIES:
+  - Cloudinary
+  - Firebase (>= 2.5.0)
+
+SPEC CHECKSUMS:
+  Cloudinary: f80af4565ec08c521d5e58cb56d9fbe1e4595e40
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+
+COCOAPODS: 0.39.0

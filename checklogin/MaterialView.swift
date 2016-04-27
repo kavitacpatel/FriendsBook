@@ -8,7 +8,7 @@
 
 import UIKit
 
-class loginView: UIView {
+class MaterialView: UIView {
 
     // used for view
    override func awakeFromNib() {
